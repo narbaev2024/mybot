@@ -13,7 +13,7 @@ timezone = pytz.timezone('Asia/Bishkek')
 API_TOKEN = '7370432818:AAELlwGFnwnq0J7flE1gZsDhyG3wnJRuaCY'
 bot = telebot.TeleBot(API_TOKEN)
 
-# PostgreSQL connection
+
 conn = psycopg2.connect(
     dbname='keybot',
     user='postgres',
